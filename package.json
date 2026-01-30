@@ -1,0 +1,165 @@
+{
+  "name": "claude-code-zh-cn",
+  "displayName": "Claude Code 汉化 (简体中文)",
+  "description": "Claude Code for VS Code 的简体中文汉化扩展",
+  "version": "1.0.0",
+  "publisher": "zstings",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "icon": "claude-logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zstings/claude-code-zh-cn.git"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "chinese",
+    "中文",
+    "汉化",
+    "i18n"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "claudeCodeZhCn.applyTranslation",
+        "title": "应用汉化",
+        "category": "Claude Code 汉化"
+      },
+      {
+        "command": "claudeCodeZhCn.restoreOriginal",
+        "title": "还原原版",
+        "category": "Claude Code 汉化"
+      },
+      {
+        "command": "claudeCodeZhCn.openConfig",
+        "title": "打开配置",
+        "category": "Claude Code 汉化"
+      },
+      {
+        "command": "claudeCodeZhCn.reloadExtension",
+        "title": "重新加载汉化",
+        "category": "Claude Code 汉化"
+      }
+    ],
+    "configuration": {
+      "title": "Claude Code 汉化",
+      "properties": {
+        "claudeCodeZhCn.autoApplyOnStartup": {
+          "type": "boolean",
+          "default": true,
+          "description": "VS Code 启动时自动应用汉化"
+        },
+        "claudeCodeZhCn.autoApplyOnUpdate": {
+          "type": "boolean",
+          "default": true,
+          "description": "检测到 Claude Code 更新时自动重新应用汉化"
+        },
+        "claudeCodeZhCn.preTranslationRules": {
+          "type": "array",
+          "default": [],
+          "description": "前置汉化规则（在内置规则之前执行）",
+          "items": {
+            "type": "object",
+            "properties": {
+              "original": {
+                "type": "string",
+                "description": "原始英文文本（支持正则表达式）"
+              },
+              "chinese": {
+                "type": "string",
+                "description": "中文翻译"
+              },
+              "regex": {
+                "type": "boolean",
+                "default": false,
+                "description": "是否使用正则表达式匹配"
+              },
+              "flags": {
+                "type": "string",
+                "default": "g",
+                "description": "正则表达式标志（如 'gi' 表示全局+忽略大小写）"
+              }
+            },
+            "required": [
+              "original",
+              "chinese"
+            ]
+          }
+        },
+        "claudeCodeZhCn.postTranslationRules": {
+          "type": "array",
+          "default": [],
+          "description": "后置汉化规则（在内置规则之后执行）",
+          "items": {
+            "type": "object",
+            "properties": {
+              "original": {
+                "type": "string",
+                "description": "原始英文文本（支持正则表达式）"
+              },
+              "chinese": {
+                "type": "string",
+                "description": "中文翻译"
+              },
+              "regex": {
+                "type": "boolean",
+                "default": false,
+                "description": "是否使用正则表达式匹配"
+              },
+              "flags": {
+                "type": "string",
+                "default": "g",
+                "description": "正则表达式标志（如 'gi' 表示全局+忽略大小写）"
+              }
+            },
+            "required": [
+              "original",
+              "chinese"
+            ]
+          }
+        },
+        "claudeCodeZhCn.createBackup": {
+          "type": "boolean",
+          "default": true,
+          "description": "应用汉化前创建备份文件"
+        },
+        "claudeCodeZhCn.showNotifications": {
+          "type": "boolean",
+          "default": true,
+          "description": "显示操作完成的通知"
+        },
+        "claudeCodeZhCn.claudeCodeExtensionId": {
+          "type": "string",
+          "default": "Anthropic.claude-code",
+          "description": "Claude Code 扩展的 ID（格式：Publisher.ExtensionName）"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "pnpm run lint",
+    "test": "vscode-test",
+    "build": "pnpm vsce package --no-dependencies"
+  },
+  "devDependencies": {
+    "@types/vscode": "1.108.1",
+    "@vscode/vsce": "^3.7.1",
+    "eslint": "^9.18.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@vscode/vsce-sign",
+      "keytar"
+    ]
+  }
+}

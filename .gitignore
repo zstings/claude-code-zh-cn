@@ -1,0 +1,4 @@
+node_modules
+!core/node_modules
+modules
+*.vsix

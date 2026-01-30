@@ -1,0 +1,720 @@
+{
+  "version": "1.0.0",
+  "description": "Claude Code 内置汉化规则",
+  "translations": [
+    {
+      "original": "to focus or unfocus Claude",
+      "chinese": "聚焦或取消聚焦 Claude 窗口"
+    },
+    {
+      "original": "\"Ask before edits\"",
+      "chinese": "\"修改前询问\""
+    },
+    {
+      "original": "\"Edit automatically\"",
+      "chinese": "\"自动编辑\""
+    },
+    {
+      "original": "\"Plan mode\"",
+      "chinese": "\"计划模式\""
+    },
+    {
+      "original": "Tired of repeating yourself? Tell Claude to remember what you\\u2019ve told it using CLAUDE.md.",
+      "chinese": "无需重复指令。通过 CLAUDE.md 记录已知信息，让 Claude 拥有持久记忆。"
+    },
+    {
+      "original": "\"Ready to code?\"",
+      "chinese": "\"准备好开始写代码了吗？\""
+    },
+    {
+      "original": "\"Let's write something worth deploying.\"",
+      "chinese": "\"别写烂代码了，写点能跑上线的吧。\""
+    },
+    {
+      "original": "\"// TODO: Everything. Let\\u2019s start.\"",
+      "chinese": "\"// TODO: 万事待兴。开始吧。\""
+    },
+    {
+      "original": "\"Type /model to pick the right tool for the job.\"",
+      "chinese": "\"输入 /model，为当前任务选择合适的工具。\""
+    },
+    {
+      "original": "\"Use planning mode to talk through big changes before a commit. Press\"",
+      "chinese": "\"在提交代码前，使用计划模式讨论重大变更。按下\""
+    },
+    {
+      "original": "\"to cycle between modes.\"",
+      "chinese": "\"以切换模式。\""
+    },
+    {
+      "original": "\"Highlight any text and press\"",
+      "chinese": "\"选中文本并按下\""
+    },
+    {
+      "original": "\"to chat about it\"",
+      "chinese": "\"来讨论它。\""
+    },
+    {
+      "original": "\"Make a CLAUDE.md file for instructions Claude will read every single time.\"",
+      "chinese": "\"创建一个 CLAUDE.md 文件，用于存放 Claude 每次都会读取的指令。\""
+    },
+    {
+      "original": "\"You\\u2019ve come to the absolutely right place!\"",
+      "chinese": "\"你绝对找对地方了！\""
+    },
+    {
+      "original": "\"Prefer the Terminal experience?\"",
+      "chinese": "\"更倾向于终端体验？\""
+    },
+    {
+      "original": "\"Switch back in Settings.\"",
+      "chinese": "\"可在设置中切回。\""
+    },
+    {
+      "original": "\"Files & Folders\"",
+      "chinese": "\"文件和文件夹\""
+    },
+    {
+      "original": "\"Remote server is not connected\"",
+      "chinese": "\"远程服务器未连接\""
+    },
+    {
+      "original": "\"Filter actions\\u2026\"",
+      "chinese": "\"过滤操作...\""
+    },
+    {
+      "original": "\"No matching commands\"",
+      "chinese": "\"没有匹配的指令\""
+    },
+    {
+      "original": "\"Attach file\\u2026\"",
+      "chinese": "\"添加文件...\""
+    },
+    {
+      "original": "\"Mention file from this project\\u2026\"",
+      "chinese": "\"引用此项目中的文件...\""
+    },
+    {
+      "original": "\"MCP status\"",
+      "chinese": "\"MCP 状态\""
+    },
+    {
+      "original": "\"Manage plugins\"",
+      "chinese": "\"管理插件\""
+    },
+    {
+      "original": "\"General config\\u2026\"",
+      "chinese": "\"通用配置...\""
+    },
+    {
+      "original": "\"Open Claude Code Extension configuration\"",
+      "chinese": "\"打开 Claude Code 扩展配置\""
+    },
+    {
+      "original": "\"View help docs\"",
+      "chinese": "\"查看帮助文档\""
+    },
+    {
+      "original": "\"Open help documentation\"",
+      "chinese": "\"打开帮助文档\""
+    },
+    {
+      "original": "\"Open Claude in Terminal\"",
+      "chinese": "\"在终端中打开 Claude\""
+    },
+    {
+      "original": "\"Open a new Claude instance in the Terminal\"",
+      "chinese": "\"在终端中开启新的 Claude 实例\""
+    },
+    {
+      "original": "\"Thinking\"",
+      "chinese": "\"深度思考\"",
+      "replaceAll": true
+    },
+    {
+      "original": "\"Extended thinking is on\"",
+      "chinese": "\"深度思考已开启\""
+    },
+    {
+      "original": "\"Extended thinking is off\"",
+      "chinese": "\"深度思考已关闭\""
+    },
+    {
+      "original": "\"Drop to attach as context\"",
+      "chinese": "\"拖拽至此作为上下文引用\""
+    },
+    {
+      "original": "\"Loading...\"",
+      "chinese": "\"加载中...\""
+    },
+    {
+      "original": "\"Account & Usage\"",
+      "chinese": "\"账户与用量\""
+    },
+    {
+      "original": "\"Account & usage\\u2026\"",
+      "chinese": "\"账户与用量...\""
+    },
+    {
+      "original": "\"Switch model\\u2026\"",
+      "chinese": "\"切换模型...\""
+    },
+    {
+      "original": "\"Ask Claude for help\"",
+      "chinese": "\"向 Claude 寻求帮助\""
+    },
+    {
+      "original": "\"Queue another message\\u2026\"",
+      "chinese": "\"排队发送下一条消息...\""
+    },
+    {
+      "original": "to attach selected text",
+      "chinese": "以附加选中文本"
+    },
+    {
+      "original": "to focus or unfocus Claude",
+      "chinese": "以聚焦或取消聚焦 Claude 窗口"
+    },
+    {
+      "original": "\"Ask Claude to edit\\u2026\"",
+      "chinese": "\"请求 Claude 进行编辑...\""
+    },
+    {
+      "original": "\"Plugins\"",
+      "chinese": "\"插件\""
+    },
+    {
+      "original": "\"Continue in Terminal to manage plugins?\"",
+      "chinese": "\"前往终端管理插件？\""
+    },
+    {
+      "original": "\"After installing plugins, reload this extension to use them here.\"",
+      "chinese": "\"安装插件后，请重新加载扩展以在此使用。\""
+    },
+    {
+      "original": "\"Manage MCP servers\"",
+      "chinese": "\"管理 MCP 服务器\"",
+      "replaceAll": true
+    },
+    {
+      "original": "\"Output styles\"",
+      "chinese": "\"输出样式\""
+    },
+    {
+      "original": "\"Continue in Terminal to change output style?\"",
+      "chinese": "\"前往终端更改输出样式？\""
+    },
+    {
+      "original": "\"After changing your output style in Terminal and reloading this extension, you'll be able to use it here.\"",
+      "chinese": "\"在终端修改输出样式并重载扩展后，即可在此生效。\""
+    },
+    {
+      "original": "\"Agents\"",
+      "chinese": "\"智能体\""
+    },
+    {
+      "original": "\"Continue in Terminal to configure agents?\"",
+      "chinese": "\"前往终端配置智能体？\""
+    },
+    {
+      "original": "\"Once agents are configured in Terminal, you can reload this extension and ask Claude to use them here.\"",
+      "chinese": "\"在终端配置完成后，重载扩展即可在此调用智能体。\""
+    },
+    {
+      "original": "\"Hooks\"",
+      "chinese": "\"钩子\""
+    },
+    {
+      "original": "\"Continue in Terminal to configure hooks?\"",
+      "chinese": "\"前往终端配置 Hooks？\""
+    },
+    {
+      "original": "\"Once hooks are configured in this repository, they'll be active in your IDE, too.\"",
+      "chinese": "\"在此仓库配置 Hooks 后，它们也会在 IDE 中生效。\""
+    },
+    {
+      "original": "\"Memory\"",
+      "chinese": "\"记忆\""
+    },
+    {
+      "original": "\"Continue in Terminal to edit memory?\"",
+      "chinese": "\"前往终端编辑记忆内容？\""
+    },
+    {
+      "original": "\"Once configured, memories will be picked up by Claude Code here in your IDE.\"",
+      "chinese": "\"配置完成后，Claude Code 将在 IDE 中同步你的记忆内容。\""
+    },
+    {
+      "original": "\"Permissions\"",
+      "chinese": "\"权限管理\""
+    },
+    {
+      "original": "\"Continue in Terminal to manage permissions?\"",
+      "chinese": "\"前往终端管理权限？\""
+    },
+    {
+      "original": "\"Permission settings are shared between Terminal and this IDE.\"",
+      "chinese": "\"权限设置在终端与 IDE 之间共享。\""
+    },
+    {
+      "original": "\"Loading MCP servers\\u2026\"",
+      "chinese": "\"正在加载 MCP 服务器...\""
+    },
+    {
+      "original": "\"No running MCP servers.\"",
+      "chinese": "\"没有运行中的 MCP 服务器。\""
+    },
+    {
+      "original": "\"Clear conversation\"",
+      "chinese": "\"清空对话\""
+    },
+    {
+      "original": "\"New conversation\"",
+      "chinese": "\"新建对话\""
+    },
+    {
+      "original": "\"Untitled\"",
+      "chinese": "\"无标题\"",
+      "replaceAll": true
+    },
+    {
+      "original": "\"Search sessions\\u2026\"",
+      "chinese": "\"搜索会话...\"",
+      "replaceAll": true
+    },
+    {
+      "original": "\"Resume conversation\"",
+      "chinese": "\"恢复对话\""
+    },
+    {
+      "original": "\"Switch account\"",
+      "chinese": "\"切换账户\""
+    },
+    {
+      "original": "\"Flag model behavior (internal)\"",
+      "chinese": "\"标记模型行为 (内部)\""
+    },
+    {
+      "original": "\"Report model issues to the research team\"",
+      "chinese": "\"向研究团队报告模型问题\""
+    },
+    {
+      "original": "\"Share with team (internal)\"",
+      "chinese": "\"分享给团队 (内部)\""
+    },
+    {
+      "original": "\"Share conversation with team members\"",
+      "chinese": "\"与团队成员分享对话\""
+    },
+    {
+      "original": "\"Reset onboarding [internal]\"",
+      "chinese": "\"重置新手引导 [内部]\""
+    },
+    {
+      "original": "\"Report a problem\"",
+      "chinese": "\"报告问题\""
+    },
+    {
+      "original": "\"Show command menu (/)\"",
+      "chinese": "\"显示命令菜单 (/)\""
+    },
+    {
+      "original": "\"Adding\\u2026\"",
+      "chinese": "\"正在添加...\""
+    },
+    {
+      "original": "\"Add\"",
+      "chinese": "\"添加\""
+    },
+    {
+      "original": "\"No marketplaces configured. Add one above to discover plugins.\"",
+      "chinese": "\"尚未配置市场。请在上方添加一个市场以探索插件。\""
+    },
+    {
+      "original": "\"Press\"",
+      "chinese": "\"按下\"",
+      "replaceAll": true
+    },
+    {
+      "original": "\"to automatically approve code edits\"",
+      "chinese": "\"以自动批准代码修改\""
+    },
+    {
+      "original": "\"Use Claude Code in the terminal to configure MCP servers. They\\u2019ll work here, too!\"",
+      "chinese": "\"在终端中使用 Claude Code 配置 MCP 服务器，设置也会在此处生效！\""
+    },
+    {
+      "original": "\"Past conversations\"",
+      "chinese": "\"历史对话\"",
+      "replaceAll": true
+    },
+    {
+      "original": "\"New session\"",
+      "chinese": "\"开启新会话\""
+    },
+    {
+      "original": "Claude is requesting permission to use",
+      "chinese": "Claude 正在请求使用权限"
+    },
+    {
+      "original": "\"User cancelled the edit\"",
+      "chinese": "\"用户取消了编辑\""
+    },
+    {
+      "original": "\"User cancelled the write\"",
+      "chinese": "\"用户取消了写入\""
+    },
+    {
+      "original": "\"Claude will edit your selected text or the whole file. Click, or press Shift+Tab, to switch modes.\"",
+      "chinese": "\"Claude 将编辑选中的文本或整个文件。点击或按 Shift+Tab 切换模式。\""
+    },
+    {
+      "original": "\"Claude will explore the code and present a plan before editing. Click, or press Shift+Tab, to switch modes.\"",
+      "chinese": "\"Claude 将探索代码并在编辑前提供方案。点击或按 Shift+Tab 切换模式。\""
+    },
+    {
+      "original": "\"Claude Code will not ask for your approval before running potentially dangerous commands.\"",
+      "chinese": "\"Claude Code 在执行潜在危险命令前将不再请求您的批准。\""
+    },
+    {
+      "original": "\"Claude will ask before each edit. Click, or press Shift+Tab, to switch modes.\"",
+      "chinese": "\"Claude 将在每次编辑前进行询问。点击或按 Shift+Tab 切换模式。\""
+    },
+    {
+      "original": "\"Bypass permissions\"",
+      "chinese": "\"绕过权限验证\""
+    },
+    {
+      "original": "Not showing Claude your current file selection",
+      "chinese": "不向 Claude 显示当前选中的文件"
+    },
+    {
+      "original": "Showing Claude your current file selection",
+      "chinese": "正在向 Claude 显示当前选中的文件"
+    },
+    {
+      "original": ". Click to attach.",
+      "chinese": "。点击以附加。"
+    },
+    {
+      "original": "\"Concocting\"",
+      "chinese": "\"正在构思\""
+    },
+    {
+      "original": "\"Forging\"",
+      "chinese": "\"正在生成代码\""
+    },
+    {
+      "original": "\"Support\"",
+      "chinese": "\"支持\""
+    },
+    {
+      "original": "\"Settings\"",
+      "chinese": "\"设置\""
+    },
+    {
+      "original": "\"Slash Commands\"",
+      "chinese": "\"斜杠命令\""
+    },
+    {
+      "original": "\"Customize\"",
+      "chinese": "\"自定义\""
+    },
+    {
+      "original": "\"Model\"",
+      "chinese": "\"模型\""
+    },
+    {
+      "original": "\"Context\"",
+      "chinese": "\"上下文\""
+    },
+    {
+      "original": "\"View account info and usage limits\"",
+      "chinese": "\"查看账户信息和使用限制\""
+    },
+    {
+      "original": "\"Once configured, MCPs will be reflected in your IDE, too.\"",
+      "chinese": "\"配置完成后，MCP 也会在您的 IDE 中生效。\""
+    },
+    {
+      "original": "\"Marketplaces\"",
+      "chinese": "\"市场\""
+    },
+    {
+      "original": "\"Manage Plugins\"",
+      "chinese": "\"管理插件\""
+    },
+    {
+      "original": "\"GitHub repo, URL, or path\\u2026\"",
+      "chinese": "\"GitHub 仓库、URL 或路径...\""
+    },
+    {
+      "original": "\"Refresh marketplace\"",
+      "chinese": "\"刷新市场\""
+    },
+    {
+      "original": "\"Remove marketplace\"",
+      "chinese": "\"移除市场\""
+    },
+    {
+      "original": "\"Removing\\u2026\"",
+      "chinese": "\"正在移除...\""
+    },
+    {
+      "original": "\"Install\"",
+      "chinese": "\"安装\""
+    },
+    {
+      "original": "\"Installed\"",
+      "chinese": "\"已安装\"" 
+    },
+    {
+      "original": "\"install_plugin\"",
+      "chinese": "\"安装插件\""
+    },
+    {
+      "original": "\"uninstall_plugin\"",
+      "chinese": "\"卸载插件\""
+    },
+    {
+      "original": "\"set_plugin_enabled\"",
+      "chinese": "\"设置插件启用状态\""
+    },
+    {
+      "original": "\"add_marketplace\"",
+      "chinese": "\"添加市场\""
+    },
+    {
+      "original": "\"remove_marketplace\"",
+      "chinese": "\"移除市场\""
+    },
+    {
+      "original": "\"refresh_marketplace\"",
+      "chinese": "\"刷新市场\""
+    },
+    {
+      "original": "\"Search plugins\\u2026\"",
+      "chinese": "\"搜索插件...\""
+    },
+    {
+      "original": "\"No plugins available. Add a marketplace to discover plugins.\"",
+      "chinese": "\"没有可用的插件。请添加市场以发现更多插件。\""
+    },
+    {
+      "original": "\"Disable plugin (stays installed but will not load)\"",
+      "chinese": "\"禁用插件（仍会安装但不会加载）\""
+    },
+    {
+      "original": "\"Enable plugin (will load on next restart)\"",
+      "chinese": "\"启用插件（下次重启后加载）\""
+    },
+    {
+      "original": "\"Uninstall plugin\"",
+      "chinese": "\"卸载插件\""
+    },
+    {
+      "original": "\"Uninstall and remove plugin\"",
+      "chinese": "\"卸载并移除插件\""
+    },
+    {
+      "original": "\"Available\"",
+      "chinese": "\"可用\""
+    },
+    {
+      "original": "\"Official Claude Code marketplace\"",
+      "chinese": "\"官方 Claude Code 市场\""
+    },
+    {
+      "original": "\"Make sure you trust a plugin before installing, updating, or using it. Anthropic does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change.\"",
+      "chinese": "\"在安装、更新或使用插件之前，请确保您信任该插件。Anthropic 不控制插件中包含的 MCP 服务器、文件或其他软件，也无法验证它们是否按预期工作或是否会改变。\""
+    },
+    {
+      "original": "\"Available in all your projects\"",
+      "chinese": "\"在所有项目中可用\""
+    },
+    {
+      "original": "\"Install for you\"",
+      "chinese": "\"为您安装\""
+    },
+    {
+      "original": "\"Install for this project\"",
+      "chinese": "\"为当前项目安装\""
+    },
+    {
+      "original": "\"Shared with all collaborators\"",
+      "chinese": "\"与所有协作者共享\""
+    },
+    {
+      "original": "\"Install locally\"",
+      "chinese": "\"在本地安装\""
+    },
+    {
+      "original": "\"Only for you, only in this repo\"",
+      "chinese": "\"仅为您，仅在当前仓库中\""
+    },
+    {
+      "original": "\"Cancel\"",
+      "chinese": "\"取消\""
+    },
+    {
+      "original": "\"Loading marketplaces\\u2026\"",
+      "chinese": "\"正在加载市场...\""
+    },
+    {
+      "original": "\"Failed to load marketplaces: \"",
+      "chinese": "\"加载市场失败：\""
+    },
+    {
+      "original": "\"Close dialog\"",
+      "chinese": "\"关闭对话框\""
+    },
+    {
+      "original": "\"Manage Plugins\"",
+      "chinese": "\"管理插件\""
+    },
+    {
+      "original": "\"Restart Claude to apply plugin changes\"",
+      "chinese": "\"重启 Claude 以应用插件更改\""
+    },
+    {
+      "original": "\"Restart\"",
+      "chinese": "\"重启\""
+    },
+    {
+      "original": "\"Fork and rewind\"",
+      "chinese": "\"复刻并回滚\""
+    },
+    {
+      "original": "\"Rewind code\"",
+      "chinese": "\"回滚代码\""
+    },
+    {
+      "original": "\"Continue\"",
+      "chinese": "\"继续\""
+    },
+    {
+      "original": "\"Rewind\"",
+      "chinese": "\"回滚\""
+    },
+    {
+      "original": "\"Never mind\"",
+      "chinese": "\"蒜鸟蒜鸟\""
+    },
+    {
+      "original": "\"A new forked conversation will be created after rewinding.\"",
+      "chinese": "\"回滚后将创建一个新的复刻对话。\""
+    },
+    {
+      "original": "\"Checking code changes\\u2026\"",
+      "chinese": "\"正在检查代码更改...\""
+    },
+    {
+      "original": "\"Rewinding does not affect files edited manually or via bash.\"",
+      "chinese": "\"回滚不会影响手动编辑或通过 bash 编辑的文件。\""
+    },
+    {
+      "original": "\"Failed to rewind code: No file checkpoint found\"",
+      "chinese": "\"回滚代码失败：未找到文件检查点\""
+    },
+    {
+      "original": "\"Code rewind successful\"",
+      "chinese": "\"回滚代码成功\""
+    },
+    {
+      "original": "\"Failed to fork conversation: Unknown session id\"",
+      "chinese": "\"复刻对话失败：未知会话 ID\""
+    },
+    {
+      "original": "\"Message actions\"",
+      "chinese": "\"消息操作\""
+    },
+    {
+      "original": "\"Loading plugins\\u2026\"",
+      "chinese": "\"正在加载插件...\""
+    },
+    {
+      "original": "\"Installing plugin \\u201C\"",
+      "chinese": "\"正在安装插件 \\u201C\""
+    },
+    {
+      "original": "\"\\u201D requires adding a new marketplace source: \"",
+      "chinese": "\"\\u201D 需要添加新的市场源：\""
+    },
+    {
+      "original": "\"Add Marketplace & Continue\"",
+      "chinese": "\"添加市场源并继续\""
+    },
+    {
+      "original": "\"Adding marketplace\\u2026\"",
+      "chinese": "\"正在添加市场源...\""
+    },
+    {
+      "original": "\"Loading available plugins\\u2026\"",
+      "chinese": "\"正在加载可用插件...\""
+    },
+    {
+      "original": "\"Failed to load plugins: \"",
+      "chinese": "\"加载插件失败：\""
+    },
+    {
+      "original": "\"No plugins available. Add a marketplace to discover plugins.\"",
+      "chinese": "\"没有可用插件。请添加市场源以发现插件。\""
+    },
+    {
+      "original": "\"Select a model\"",
+      "chinese": "\"请选择一个模型\""
+    },
+    {
+      "original": "\"No models available\"",
+      "chinese": "\"没有可用模型\""
+    },
+    {
+      "original": "\"Loading models\\u2026\"",
+      "chinese": "\"正在加载模型...\""
+    },
+    {
+      "original": "\"Account\"",
+      "chinese": "\"账户\""
+    },
+    {
+      "original": "\"Auth method\"",
+      "chinese": "\"认证方法\""
+    },
+    {
+      "original": "\"Email\"",
+      "chinese": "\"邮箱\""
+    },
+    {
+      "original": "\"Organization\"",
+      "chinese": "\"组织\""
+    },
+    {
+      "original": "\"Plan\"",
+      "chinese": "\"计划\""
+    },
+    {
+      "original": "\"Usage\"",
+      "chinese": "\"使用情况\""
+    },
+    {
+      "original": "\"Session (5hr)\"",
+      "chinese": "\"会话（5 小时）\""
+    },
+    {
+      "original": "\"Weekly (7 day)\"",
+      "chinese": "\"每周（7 天）\""
+    },
+    {
+      "original": "\"Weekly Sonnet\"",
+      "chinese": "\"每周 Sonnet 模型\""
+    },
+    {
+      "original": "\"Loading usage data\\u2026\"",
+      "chinese": "\"正在加载使用数据...\""
+    },
+    {
+      "original": "\"Continue in Terminal\"",
+      "chinese": "\"在终端继续\""
+    }
+  ]
+}
