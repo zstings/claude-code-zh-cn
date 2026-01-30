@@ -1,6 +1,6 @@
 {
   "name": "claude-code-zh-cn",
-  "displayName": "Claude Code 汉化 (简体中文)",
+  "displayName": "Claude Code for VS Code 汉化 (简体中文)",
   "description": "Claude Code for VS Code 的简体中文汉化扩展",
   "version": "1.0.0",
   "publisher": "zstings",
