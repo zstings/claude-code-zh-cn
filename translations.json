@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "translations": [
+    {
+      "original": "Hello",
+      "chinese": "你好"
+    },
+    {
+      "original": "Welcome",
+      "chinese": "欢迎"
+    },
+    {
+      "original": "Settings",
+      "chinese": "设置"
+    },
+    {
+      "original": "Extension",
+      "chinese": "扩展"
+    },
+    {
+      "original": "Language",
+      "chinese": "语言"
+    }
+  ]
+}
