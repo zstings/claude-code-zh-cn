@@ -61,8 +61,8 @@ async function activate(context) {
     let reloadCommand = vscode.commands.registerCommand(
         'claudeCodeZhCn.reloadExtension',
         async () => {
-            await applyTranslation(locator, translator, backup, config);
-            vscode.window.showInformationMessage('汉化已重新加载');
+            // 强制重新汉化：有备份时先还原再汉化
+            await applyTranslation(locator, translator, backup, config, false, true);
         }
     );
     context.subscriptions.push(reloadCommand);
@@ -92,10 +92,12 @@ async function activate(context) {
 
 /**
  * 应用汉化
+ * @param {boolean} silent - 静默模式（启动时自动调用）
+ * @param {boolean} forceReapply - 强制重新汉化（重新加载命令使用）
  */
-async function applyTranslation(locator, translator, backup, config, silent = false) {
+async function applyTranslation(locator, translator, backup, config, silent = false, forceReapply = false) {
     try {
-        // 1. 定位 Claude Code 扩展
+        // 定位 Claude Code 扩展
         const claudePath = await locator.findClaudeCodeExtension();
         if (!claudePath) {
             vscode.window.showErrorMessage(
@@ -104,7 +106,7 @@ async function applyTranslation(locator, translator, backup, config, silent = fa
             return;
         }
 
-        // 2. 找到 webview 文件
+        // 找到 webview 文件
         const mainFilePath = locator.findMainFile(claudePath);
         if (!mainFilePath) {
             vscode.window.showErrorMessage(
@@ -113,8 +115,25 @@ async function applyTranslation(locator, translator, backup, config, silent = fa
             return;
         }
 
-        // 3. 创建备份
-        if (config.get('createBackup')) {
+        // 检查是否已汉化（备份文件存在则说明已汉化）
+        const hasExistingBackup = backup.hasBackup(mainFilePath);
+
+        if (hasExistingBackup) {
+            if (silent && !forceReapply) {
+                // 静默模式下，已汉化则跳过
+                console.log('检测到备份文件，已汉化，跳过重复汉化');
+                return;
+            }
+
+            if (forceReapply) {
+                // 强制重新汉化：先还原备份，再重新汉化
+                console.log('强制重新汉化：先还原备份');
+                await backup.restoreBackup(mainFilePath);
+            }
+        }
+
+        // 创建备份（如果没有现有备份）
+        if (config.get('createBackup') && !hasExistingBackup) {
             const backupCreated = await backup.createBackup(mainFilePath);
             if (!backupCreated) {
                 const choice = await vscode.window.showWarningMessage(
@@ -125,16 +144,16 @@ async function applyTranslation(locator, translator, backup, config, silent = fa
             }
         }
 
-        // 4. 读取文件内容
+        // 读取文件内容
         let content = fs.readFileSync(mainFilePath, 'utf8');
 
-        // 5. 应用三阶段汉化
+        // 应用三阶段汉化
         content = await translator.translate(content);
 
-        // 6. 写入文件
+        // 写入文件
         fs.writeFileSync(mainFilePath, content, 'utf8');
 
-        // 7. 通知用户
+        // 通知用户
         if (config.get('showNotifications') && !silent) {
             const choice = await vscode.window.showInformationMessage(
                 '汉化应用成功！需要重新打开新的聊天窗口或者重新加载窗口以生效。',
@@ -157,7 +176,7 @@ async function applyTranslation(locator, translator, backup, config, silent = fa
  */
 async function restoreOriginal(locator, backup, config) {
     try {
-        // 1. 定位 Claude Code 扩展
+        // 定位 Claude Code 扩展
         const claudePath = await locator.findClaudeCodeExtension();
         if (!claudePath) {
             vscode.window.showErrorMessage(
@@ -166,7 +185,7 @@ async function restoreOriginal(locator, backup, config) {
             return;
         }
 
-        // 2. 找到 webview 文件
+        // 找到 webview 文件
         const mainFilePath = locator.findMainFile(claudePath);
         if (!mainFilePath) {
             vscode.window.showErrorMessage(
@@ -175,7 +194,7 @@ async function restoreOriginal(locator, backup, config) {
             return;
         }
 
-        // 3. 还原备份
+        // 还原备份
         const restored = await backup.restoreBackup(mainFilePath);
         if (!restored) {
             vscode.window.showErrorMessage(
@@ -184,7 +203,7 @@ async function restoreOriginal(locator, backup, config) {
             return;
         }
 
-        // 4. 通知用户
+        // 通知用户
         if (config.get('showNotifications')) {
             const choice = await vscode.window.showInformationMessage(
                 '已还原到原版！需要重新打开新的聊天窗口或者重新加载窗口以生效。',
