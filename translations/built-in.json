@@ -789,11 +789,11 @@
     },
     {
       "original": "\"Baking\"",
-      "chinese": "\"逻辑烘焙中\""
+      "chinese": "\"正在烘焙\""
     },
     {
       "original": "\"Booping\"",
-      "chinese": "\"正在处理信号\""
+      "chinese": "\"正在轻戳\""
     },
     {
       "original": "\"Brewing\"",
@@ -845,11 +845,11 @@
     },
     {
       "original": "\"Contemplating\"",
-      "chinese": "\"正在冥想\""
+      "chinese": "\"正在深思\""
     },
     {
       "original": "\"Cooking\"",
-      "chinese": "\"方案烹饪中\""
+      "chinese": "\"正在烹制\""
     },
     {
       "original": "\"Crafting\"",
@@ -873,11 +873,11 @@
     },
     {
       "original": "\"Determining\"",
-      "chinese": "\"正在做出裁决\""
+      "chinese": "\"正在判定\""
     },
     {
       "original": "\"Discombobulating\"",
-      "chinese": "\"逻辑纠缠中\""
+      "chinese": "\"正在搅乱思路\""
     },
     {
       "original": "\"Doing\"",
@@ -893,11 +893,11 @@
     },
     {
       "original": "\"Enchanting\"",
-      "chinese": "\"正在编织代码\""
+      "chinese": "\"正在施展魔法\""
     },
     {
       "original": "\"Envisioning\"",
-      "chinese": "\"正在构想宏图\""
+      "chinese": "\"正在构想\""
     },
     {
       "original": "\"Finagling\"",
@@ -909,7 +909,7 @@
     },
     {
       "original": "\"Forging\"",
-      "chinese": "\"正在生成代码\""
+      "chinese": "\"正在锻造\""
     },
     {
       "original": "\"Forming\"",
@@ -917,7 +917,7 @@
     },
     {
       "original": "\"Frolicking\"",
-      "chinese": "\"正在灵感跃动\""
+      "chinese": "\"正在欢快跳跃\""
     },
     {
       "original": "\"Generating\"",
@@ -925,11 +925,11 @@
     },
     {
       "original": "\"Germinating\"",
-      "chinese": "\"灵感萌芽中\""
+      "chinese": "\"正在萌芽\""
     },
     {
       "original": "\"Hatching\"",
-      "chinese": "\"方案孵化中\""
+      "chinese": "\"正在孵化\""
     },
     {
       "original": "\"Herding\"",
@@ -937,7 +937,7 @@
     },
     {
       "original": "\"Honking\"",
-      "chinese": "\"正在发出反馈\""
+      "chinese": "\"正在鸣笛\""
     },
     {
       "original": "\"Ideating\"",
@@ -961,7 +961,7 @@
     },
     {
       "original": "\"Marinating\"",
-      "chinese": "\"思路打磨中\""
+      "chinese": "\"正在腌制入味\""
     },
     {
       "original": "\"Meandering\"",
@@ -977,7 +977,7 @@
     },
     {
       "original": "\"Mustering\"",
-      "chinese": "\"正在总结\""
+      "chinese": "\"正在集结\""
     },
     {
       "original": "\"Musing\"",
@@ -989,7 +989,7 @@
     },
     {
       "original": "\"Percolating\"",
-      "chinese": "\"思路渗透中\""
+      "chinese": "\"正在渗透\""
     },
     {
       "original": "\"Perusing\"",
@@ -997,7 +997,7 @@
     },
     {
       "original": "\"Philosophising\"",
-      "chinese": "\"正在酝酿\""
+      "chinese": "\"正在思辨\""
     },
     {
       "original": "\"Pontificating\"",
@@ -1021,7 +1021,7 @@
     },
     {
       "original": "\"Reticulating\"",
-      "chinese": "\"网格构建中\""
+      "chinese": "\"正在网格化\""
     },
     {
       "original": "\"Ruminating\"",
@@ -1033,7 +1033,7 @@
     },
     {
       "original": "\"Schlepping\"",
-      "chinese": "\"正在搬运数据\""
+      "chinese": "\"正在费力搬运\""
     },
     {
       "original": "\"Shimmying\"",
@@ -1041,7 +1041,7 @@
     },
     {
       "original": "\"Simmering\"",
-      "chinese": "\"思路微火慢熬\""
+      "chinese": "\"正在慢炖\""
     },
     {
       "original": "\"Smooshing\"",
@@ -1053,7 +1053,7 @@
     },
     {
       "original": "\"Spinning\"",
-      "chinese": "\"逻辑飞转中\""
+      "chinese": "\"正在旋转\""
     },
     {
       "original": "\"Stewing\"",
