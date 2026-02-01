@@ -345,8 +345,11 @@
     },
     {
       "original": "\"Past conversations\"",
-      "chinese": "\"历史对话\"",
-      "replaceAll": true
+      "chinese": "\"历史对话\""
+    },
+    {
+      "original": "\"Past Conversations\"",
+      "chinese": "\"历史对话\""
     },
     {
       "original": "\"New session\"",
@@ -466,7 +469,7 @@
     },
     {
       "original": "\"Installed\"",
-      "chinese": "\"已安装\"" 
+      "chinese": "\"已安装\""
     },
     {
       "original": "\"install_plugin\"",
@@ -715,6 +718,394 @@
     {
       "original": "\"Continue in Terminal\"",
       "chinese": "\"在终端继续\""
+    },
+    {
+      "original": "\"Update Todos\"",
+      "chinese": "\"更新待办事项\""
+    },
+    {
+      "original": "\"Allow this bash command?\"",
+      "chinese": "\"是否允许此 bash 命令？\""
+    },
+    {
+      "original": "\"Write\"",
+      "chinese": "\"写入\""
+    },
+    {
+      "original": "\"What to do first? Ask about this codebase or we can start writing code.\"",
+      "chinese": "\"接下来做什么？您可以先询问关于此代码库的问题，或者我们直接开始编写代码。\""
+    },
+    {
+      "original": "\"No files found\"",
+      "chinese": "\"未找到文件\""
+    },
+    {
+      "original": "\"Today\"",
+      "chinese": "\"今天\""
+    },
+    {
+      "original": "\"Yesterday\"",
+      "chinese": "\"昨天\""
+    },
+    {
+      "original": "\"Past week\"",
+      "chinese": "\"上周\""
+    },
+    {
+      "original": "\"Past month\"",
+      "chinese": "\"上月\""
+    },
+    {
+      "original": "\"Older\"",
+      "chinese": "\"更早的\""
+    },
+    {
+      "original": "\"Yes, allow all edits this session\"",
+      "chinese": "\"是的，允许本次会话中的所有编辑\""
+    },
+    {
+      "original": "\"Tell Claude what to do instead\"",
+      "chinese": "\"改为告诉 Claude 该做什么\""
+    },
+    {
+      "original": "\"Yes, return to normal mode\"",
+      "chinese": "\"是的，返回普通模式\""
+    },
+    {
+      "original": "\"Esc to cancel\"",
+      "chinese": "\"按 Esc 取消\""
+    },
+    {
+      "original": "\"Accomplishing\"",
+      "chinese": "\"正在达成任务\""
+    },
+    {
+      "original": "\"Actioning\"",
+      "chinese": "\"正在执行操作\""
+    },
+    {
+      "original": "\"Actualizing\"",
+      "chinese": "\"正在实现想法\""
+    },
+    {
+      "original": "\"Baking\"",
+      "chinese": "\"逻辑烘焙中\""
+    },
+    {
+      "original": "\"Booping\"",
+      "chinese": "\"正在处理信号\""
+    },
+    {
+      "original": "\"Brewing\"",
+      "chinese": "\"正在筹备\""
+    },
+    {
+      "original": "\"Calculating\"",
+      "chinese": "\"正在计算\""
+    },
+    {
+      "original": "\"Cerebrating\"",
+      "chinese": "\"正在全力思考\""
+    },
+    {
+      "original": "\"Channelling\"",
+      "chinese": "\"正在调动知识\""
+    },
+    {
+      "original": "\"Churning\"",
+      "chinese": "\"正在高速运转\""
+    },
+    {
+      "original": "\"Clauding\"",
+      "chinese": "\"Claude 思考中\""
+    },
+    {
+      "original": "\"Coalescing\"",
+      "chinese": "\"正在聚合信息\""
+    },
+    {
+      "original": "\"Cogitating\"",
+      "chinese": "\"正在沉思\""
+    },
+    {
+      "original": "\"Computing\"",
+      "chinese": "\"正在计算\""
+    },
+    {
+      "original": "\"Combobulating\"",
+      "chinese": "\"正在梳理逻辑\""
+    },
+    {
+      "original": "\"Concocting\"",
+      "chinese": "\"正在构思方案\""
+    },
+    {
+      "original": "\"Considering\"",
+      "chinese": "\"正在权衡\""
+    },
+    {
+      "original": "\"Contemplating\"",
+      "chinese": "\"正在冥想\""
+    },
+    {
+      "original": "\"Cooking\"",
+      "chinese": "\"方案烹饪中\""
+    },
+    {
+      "original": "\"Crafting\"",
+      "chinese": "\"正在精雕细琢\""
+    },
+    {
+      "original": "\"Creating\"",
+      "chinese": "\"正在创作\""
+    },
+    {
+      "original": "\"Crunching\"",
+      "chinese": "\"正在啃数据\""
+    },
+    {
+      "original": "\"Deciphering\"",
+      "chinese": "\"正在破译逻辑\""
+    },
+    {
+      "original": "\"Deliberating\"",
+      "chinese": "\"正在深思熟虑\""
+    },
+    {
+      "original": "\"Determining\"",
+      "chinese": "\"正在做出裁决\""
+    },
+    {
+      "original": "\"Discombobulating\"",
+      "chinese": "\"逻辑纠缠中\""
+    },
+    {
+      "original": "\"Doing\"",
+      "chinese": "\"正在处理\""
+    },
+    {
+      "original": "\"Effecting\"",
+      "chinese": "\"正在落实\""
+    },
+    {
+      "original": "\"Elucidating\"",
+      "chinese": "\"正在理清思路\""
+    },
+    {
+      "original": "\"Enchanting\"",
+      "chinese": "\"正在编织代码\""
+    },
+    {
+      "original": "\"Envisioning\"",
+      "chinese": "\"正在构想宏图\""
+    },
+    {
+      "original": "\"Finagling\"",
+      "chinese": "\"正在寻找对策\""
+    },
+    {
+      "original": "\"Flibbertigibbeting\"",
+      "chinese": "\"正在飞速运转\""
+    },
+    {
+      "original": "\"Forging\"",
+      "chinese": "\"正在生成代码\""
+    },
+    {
+      "original": "\"Forming\"",
+      "chinese": "\"正在塑造结果\""
+    },
+    {
+      "original": "\"Frolicking\"",
+      "chinese": "\"正在灵感跃动\""
+    },
+    {
+      "original": "\"Generating\"",
+      "chinese": "\"正在生成\""
+    },
+    {
+      "original": "\"Germinating\"",
+      "chinese": "\"灵感萌芽中\""
+    },
+    {
+      "original": "\"Hatching\"",
+      "chinese": "\"方案孵化中\""
+    },
+    {
+      "original": "\"Herding\"",
+      "chinese": "\"正在整理思路\""
+    },
+    {
+      "original": "\"Honking\"",
+      "chinese": "\"正在发出反馈\""
+    },
+    {
+      "original": "\"Ideating\"",
+      "chinese": "\"正在构思\""
+    },
+    {
+      "original": "\"Imagining\"",
+      "chinese": "\"正在联想\""
+    },
+    {
+      "original": "\"Incubating\"",
+      "chinese": "\"正在孵化方案\""
+    },
+    {
+      "original": "\"Inferring\"",
+      "chinese": "\"正在逻辑推理\""
+    },
+    {
+      "original": "\"Manifesting\"",
+      "chinese": "\"正在具体化\""
+    },
+    {
+      "original": "\"Marinating\"",
+      "chinese": "\"思路打磨中\""
+    },
+    {
+      "original": "\"Meandering\"",
+      "chinese": "\"正在漫游探索\""
+    },
+    {
+      "original": "\"Moseying\"",
+      "chinese": "\"正在悠闲思考\""
+    },
+    {
+      "original": "\"Mulling\"",
+      "chinese": "\"正在反复思索\""
+    },
+    {
+      "original": "\"Mustering\"",
+      "chinese": "\"正在总结\""
+    },
+    {
+      "original": "\"Musing\"",
+      "chinese": "\"正在沉思\""
+    },
+    {
+      "original": "\"Noodling\"",
+      "chinese": "\"正在反复琢磨\""
+    },
+    {
+      "original": "\"Percolating\"",
+      "chinese": "\"思路渗透中\""
+    },
+    {
+      "original": "\"Perusing\"",
+      "chinese": "\"正在研读\""
+    },
+    {
+      "original": "\"Philosophising\"",
+      "chinese": "\"正在酝酿\""
+    },
+    {
+      "original": "\"Pontificating\"",
+      "chinese": "\"正在构建逻辑\""
+    },
+    {
+      "original": "\"Pondering\"",
+      "chinese": "\"正在思忖\""
+    },
+    {
+      "original": "\"Processing\"",
+      "chinese": "\"正在处理\""
+    },
+    {
+      "original": "\"Puttering\"",
+      "chinese": "\"正在细致打理\""
+    },
+    {
+      "original": "\"Puzzling\"",
+      "chinese": "\"正在解开谜团\""
+    },
+    {
+      "original": "\"Reticulating\"",
+      "chinese": "\"网格构建中\""
+    },
+    {
+      "original": "\"Ruminating\"",
+      "chinese": "\"正在反复咀嚼\""
+    },
+    {
+      "original": "\"Scheming\"",
+      "chinese": "\"正在策划方案\""
+    },
+    {
+      "original": "\"Schlepping\"",
+      "chinese": "\"正在搬运数据\""
+    },
+    {
+      "original": "\"Shimmying\"",
+      "chinese": "\"正在灵活调整\""
+    },
+    {
+      "original": "\"Simmering\"",
+      "chinese": "\"思路微火慢熬\""
+    },
+    {
+      "original": "\"Smooshing\"",
+      "chinese": "\"正在整合信息\""
+    },
+    {
+      "original": "\"Spelunking\"",
+      "chinese": "\"正在深入探寻\""
+    },
+    {
+      "original": "\"Spinning\"",
+      "chinese": "\"逻辑飞转中\""
+    },
+    {
+      "original": "\"Stewing\"",
+      "chinese": "\"正在苦思冥想\""
+    },
+    {
+      "original": "\"Sussing\"",
+      "chinese": "\"正在摸清门路\""
+    },
+    {
+      "original": "\"Synthesizing\"",
+      "chinese": "\"正在综合汇总\""
+    },
+    {
+      "original": "\"Tinkering\"",
+      "chinese": "\"正在反复调试\""
+    },
+    {
+      "original": "\"Transmuting\"",
+      "chinese": "\"正在转换逻辑\""
+    },
+    {
+      "original": "\"Unfurling\"",
+      "chinese": "\"思路正在展开\""
+    },
+    {
+      "original": "\"Unravelling\"",
+      "chinese": "\"正在揭开逻辑\""
+    },
+    {
+      "original": "\"Vibing\"",
+      "chinese": "\"正在同步灵感\""
+    },
+    {
+      "original": "\"Wandering\"",
+      "chinese": "\"正在逻辑漫游\""
+    },
+    {
+      "original": "\"Whirring\"",
+      "chinese": "\"大脑飞速运转\""
+    },
+    {
+      "original": "\"Wibbling\"",
+      "chinese": "\"正在纠结逻辑\""
+    },
+    {
+      "original": "\"Working\"",
+      "chinese": "\"正在工作\""
+    },
+    {
+      "original": "\"Wrangling\"",
+      "chinese": "\"正在处理逻辑\""
     }
   ]
 }
