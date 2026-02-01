@@ -496,10 +496,10 @@
       "chinese": "\"更倾向于终端操作体验？\""
     },
     {
-      "original": "\"Run \", (.*), \" in terminal\"",
+      "original": "\"Run \",(.+?),\" in terminal\"",
       "chinese": "\"在终端中运行 \", $1, \"\"",
       "regex": true,
-      "flags": "gi"
+      "flags": "g"
     },
     {
       "original": "\"Marketplaces\"",
