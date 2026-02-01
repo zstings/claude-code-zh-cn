@@ -436,8 +436,70 @@
       "chinese": "\"查看账户信息和使用限制\""
     },
     {
+      "original": "\"Continue in Terminal to manage MCPs?\"",
+      "chinese": "\"是否在终端中继续管理 MCP？\""
+    },
+    {
+      "original": "\"Manage MCP Servers\"",
+      "chinese": "\"管理 MCP 服务器\""
+    },
+    {
+      "original": "\"You can use the \"",
+      "chinese": "\"您可以运行 \""
+    },
+    {
+      "original": "\" command-line tool to configure system-wide or private servers.\"",
+      "chinese": "\" 命令行工具，来配置系统级或私有服务器。\""
+    },
+    {
       "original": "\"Once configured, MCPs will be reflected in your IDE, too.\"",
       "chinese": "\"配置完成后，MCP 也会在您的 IDE 中生效。\""
+    },
+    {
+      "original": "\"Learn more\"",
+      "chinese": "\"了解更多\""
+    },
+    {
+      "original": "\"Claude Code can be used with your Claude subscription or billed based on API usage through your Console account.\"",
+      "chinese": "\"Claude Code 可以关联您的 Claude 订阅使用，也可以通过 Console 账户按 API 使用量计费。\""
+    },
+    {
+      "original": "\"How do you want to log in?\"",
+      "chinese": "\"请选择登录方式\""
+    },
+    {
+      "original": "\"Use your Claude Pro, Team, or Enterprise subscription\"",
+      "chinese": "\"使用您的 Claude Pro、Team 或 Enterprise 订阅\""
+    },
+    {
+      "original": "\"Claude.ai Subscription\"",
+      "chinese": "\"Claude.ai 订阅\""
+    },
+    {
+      "original": "\"Anthropic Console\"",
+      "chinese": "\"Anthropic 控制台\""
+    },
+    {
+      "original": "\"Pay for API usage through your Console account\"",
+      "chinese": "\"通过您的 Console 账户按 API 使用量付费\""
+    },
+    {
+      "original": "\"Bedrock, Foundry, or Vertex\"",
+      "chinese": "\"Bedrock、Foundry 或 Vertex\""
+    },
+    {
+      "original": "\"Instructions on how to use API keys or third-party providers.\"",
+      "chinese": "\"关于如何使用 API 密钥或第三方服务商的说明。\""
+    },
+    {
+      "original": "\"Prefer the terminal experience?\"",
+      "chinese": "\"更倾向于终端操作体验？\""
+    },
+    {
+      "original": "\"Run \", (.*), \" in terminal\"",
+      "chinese": "\"在终端中运行 \", $1, \"\"",
+      "regex": true,
+      "flags": "gi"
     },
     {
       "original": "\"Marketplaces\"",
