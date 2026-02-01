@@ -2,8 +2,11 @@
   "name": "claude-code-zh-cn",
   "displayName": "Claude Code for VS Code 汉化 (简体中文)",
   "description": "Claude Code for VS Code 的简体中文汉化扩展",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publisher": "zstings",
+  "bugs": {
+    "url": "https://github.com/zstings/claude-code-zh-cn/issues"
+  },
   "engines": {
     "vscode": "^1.94.0"
   },
@@ -13,11 +16,17 @@
     "url": "https://github.com/zstings/claude-code-zh-cn.git"
   },
   "categories": [
+    "AI",
+    "Chat",
     "Other"
   ],
   "keywords": [
     "claude",
-    "claude-code",
+    "sonnet",
+    "ai",
+    "mcp",
+    "agent",
+    "claude code",
     "chinese",
     "中文",
     "汉化",

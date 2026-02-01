@@ -797,6 +797,14 @@
       "chinese": "\"写入\""
     },
     {
+      "original": "\"Read\"",
+      "chinese": "\"读取\""
+    },
+    {
+      "original": "\"Details\"",
+      "chinese": "\"详情\""
+    },
+    {
       "original": "\"What to do first? Ask about this codebase or we can start writing code.\"",
       "chinese": "\"接下来做什么？您可以先询问关于此代码库的问题，或者我们直接开始编写代码。\""
     },
@@ -883,6 +891,10 @@
     {
       "original": "\"No sessions found\"",
       "chinese": "\"未找到会话记录\""
+    },
+    {
+      "original": "\"Do you want to proceed with \"",
+      "chinese": "\"是否继续执行 \"\""
     },
     {
       "original": "\"Accomplishing\"",
