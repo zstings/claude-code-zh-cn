@@ -776,6 +776,14 @@
       "chinese": "\"按 Esc 取消\""
     },
     {
+      "original": "\"Interrupted\"",
+      "chinese": "\"已中断\""
+    },
+    {
+      "original": "\"Tool interrupted\"",
+      "chinese": "\"工具执行已中断\""
+    },
+    {
       "original": "\"Accomplishing\"",
       "chinese": "\"正在达成任务\""
     },
