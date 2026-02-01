@@ -128,8 +128,11 @@
     },
     {
       "original": "\"Thinking\"",
-      "chinese": "\"深度思考\"",
-      "replaceAll": true
+      "chinese": "\"深度思考\""
+    },
+    {
+      "original": "\"Thinking...\"",
+      "chinese": "\"深度思考...\""
     },
     {
       "original": "\"Extended thinking is on\"",
