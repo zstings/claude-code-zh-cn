@@ -784,6 +784,38 @@
       "chinese": "\"工具执行已中断\""
     },
     {
+      "original": "\"Make this edit to\"",
+      "chinese": "\"将此编辑应用于\""
+    },
+    {
+      "original": "\"Yes\"",
+      "chinese": "\"是的\""
+    },
+    {
+      "original": "\"Yes, and auto-accept\"",
+      "chinese": "\"是的，自动接受\""
+    },
+    {
+      "original": "\"No\"",
+      "chinese": "\"不\""
+    },
+    {
+      "original": "\"No, keep planning\"",
+      "chinese": "\"不，继续规划\""
+    },
+    {
+      "original": "\"Yes, and manually approve edits\"",
+      "chinese": "\"是的，手动审核编辑\""
+    },
+    {
+      "original": "\"Yes, and don't ask again\"",
+      "chinese": "\"是的，不再询问\""
+    },
+    {
+      "original": "\"Yes, and auto-accept\"",
+      "chinese": "\"是的，自动接受\""
+    },
+    {
       "original": "\"Accomplishing\"",
       "chinese": "\"正在达成任务\""
     },
