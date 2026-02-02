@@ -196,8 +196,7 @@
     },
     {
       "original": "\"Manage MCP servers\"",
-      "chinese": "\"管理 MCP 服务器\"",
-      "replaceAll": true
+      "chinese": "\"管理 MCP 服务器\""
     },
     {
       "original": "\"Output styles\"",
@@ -277,13 +276,11 @@
     },
     {
       "original": "\"Untitled\"",
-      "chinese": "\"无标题\"",
-      "replaceAll": true
+      "chinese": "\"无标题\""
     },
     {
       "original": "\"Search sessions\\u2026\"",
-      "chinese": "\"搜索会话...\"",
-      "replaceAll": true
+      "chinese": "\"搜索会话...\""
     },
     {
       "original": "\"Resume conversation\"",
@@ -335,8 +332,7 @@
     },
     {
       "original": "\"Press\"",
-      "chinese": "\"按下\"",
-      "replaceAll": true
+      "chinese": "\"按下\""
     },
     {
       "original": "\"to automatically approve code edits\"",
@@ -894,7 +890,7 @@
     },
     {
       "original": "\"Do you want to proceed with \"",
-      "chinese": "\"是否继续执行 \"\""
+      "chinese": "\"是否继续执行 \""
     },
     {
       "original": "\"Accomplishing\"",
