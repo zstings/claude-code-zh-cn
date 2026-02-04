@@ -80,7 +80,7 @@
     },
     {
       "original": "\"Filter actions\\u2026\"",
-      "chinese": "\"过滤操作...\""
+      "chinese": "\"过滤操作…\""
     },
     {
       "original": "\"No matching commands\"",
@@ -88,11 +88,11 @@
     },
     {
       "original": "\"Attach file\\u2026\"",
-      "chinese": "\"添加文件...\""
+      "chinese": "\"添加文件…\""
     },
     {
       "original": "\"Mention file from this project\\u2026\"",
-      "chinese": "\"引用此项目中的文件...\""
+      "chinese": "\"引用此项目中的文件…\""
     },
     {
       "original": "\"MCP status\"",
@@ -104,7 +104,7 @@
     },
     {
       "original": "\"General config\\u2026\"",
-      "chinese": "\"通用配置...\""
+      "chinese": "\"通用配置…\""
     },
     {
       "original": "\"Open Claude Code Extension configuration\"",
@@ -131,8 +131,8 @@
       "chinese": "\"深度思考\""
     },
     {
-      "original": "\"Thinking...\"",
-      "chinese": "\"深度思考...\""
+      "original": "\"Thinking…\"",
+      "chinese": "\"深度思考…\""
     },
     {
       "original": "\"Extended thinking is on\"",
@@ -147,8 +147,8 @@
       "chinese": "\"拖拽至此作为上下文引用\""
     },
     {
-      "original": "\"Loading...\"",
-      "chinese": "\"加载中...\""
+      "original": "\"Loading…\"",
+      "chinese": "\"加载中…\""
     },
     {
       "original": "\"Account & Usage\"",
@@ -156,11 +156,11 @@
     },
     {
       "original": "\"Account & usage\\u2026\"",
-      "chinese": "\"账户与用量...\""
+      "chinese": "\"账户与用量…\""
     },
     {
       "original": "\"Switch model\\u2026\"",
-      "chinese": "\"切换模型...\""
+      "chinese": "\"切换模型…\""
     },
     {
       "original": "\"Ask Claude for help\"",
@@ -168,7 +168,7 @@
     },
     {
       "original": "\"Queue another message\\u2026\"",
-      "chinese": "\"排队发送下一条消息...\""
+      "chinese": "\"排队发送下一条消息…\""
     },
     {
       "original": "to attach selected text",
@@ -180,7 +180,7 @@
     },
     {
       "original": "\"Ask Claude to edit\\u2026\"",
-      "chinese": "\"请求 Claude 进行编辑...\""
+      "chinese": "\"请求 Claude 进行编辑…\""
     },
     {
       "original": "\"Plugins\"",
@@ -260,7 +260,7 @@
     },
     {
       "original": "\"Loading MCP servers\\u2026\"",
-      "chinese": "\"正在加载 MCP 服务器...\""
+      "chinese": "\"正在加载 MCP 服务器…\""
     },
     {
       "original": "\"No running MCP servers.\"",
@@ -280,7 +280,7 @@
     },
     {
       "original": "\"Search sessions\\u2026\"",
-      "chinese": "\"搜索会话...\""
+      "chinese": "\"搜索会话…\""
     },
     {
       "original": "\"Resume conversation\"",
@@ -320,7 +320,7 @@
     },
     {
       "original": "\"Adding\\u2026\"",
-      "chinese": "\"正在添加...\""
+      "chinese": "\"正在添加…\""
     },
     {
       "original": "\"Add\"",
@@ -510,7 +510,7 @@
     },
     {
       "original": "\"GitHub repo, URL, or path\\u2026\"",
-      "chinese": "\"GitHub 仓库、URL 或路径...\""
+      "chinese": "\"GitHub 仓库、URL 或路径…\""
     },
     {
       "original": "\"Refresh marketplace\"",
@@ -522,7 +522,7 @@
     },
     {
       "original": "\"Removing\\u2026\"",
-      "chinese": "\"正在移除...\""
+      "chinese": "\"正在移除…\""
     },
     {
       "original": "\"Install\"",
@@ -558,7 +558,7 @@
     },
     {
       "original": "\"Search plugins\\u2026\"",
-      "chinese": "\"搜索插件...\""
+      "chinese": "\"搜索插件…\""
     },
     {
       "original": "\"No plugins available. Add a marketplace to discover plugins.\"",
@@ -622,7 +622,7 @@
     },
     {
       "original": "\"Loading marketplaces\\u2026\"",
-      "chinese": "\"正在加载市场...\""
+      "chinese": "\"正在加载市场…\""
     },
     {
       "original": "\"Failed to load marketplaces: \"",
@@ -670,7 +670,7 @@
     },
     {
       "original": "\"Checking code changes\\u2026\"",
-      "chinese": "\"正在检查代码更改...\""
+      "chinese": "\"正在检查代码更改…\""
     },
     {
       "original": "\"Rewinding does not affect files edited manually or via bash.\"",
@@ -694,7 +694,7 @@
     },
     {
       "original": "\"Loading plugins\\u2026\"",
-      "chinese": "\"正在加载插件...\""
+      "chinese": "\"正在加载插件…\""
     },
     {
       "original": "\"Installing plugin \\u201C\"",
@@ -710,11 +710,11 @@
     },
     {
       "original": "\"Adding marketplace\\u2026\"",
-      "chinese": "\"正在添加市场源...\""
+      "chinese": "\"正在添加市场源…\""
     },
     {
       "original": "\"Loading available plugins\\u2026\"",
-      "chinese": "\"正在加载可用插件...\""
+      "chinese": "\"正在加载可用插件…\""
     },
     {
       "original": "\"Failed to load plugins: \"",
@@ -734,7 +734,7 @@
     },
     {
       "original": "\"Loading models\\u2026\"",
-      "chinese": "\"正在加载模型...\""
+      "chinese": "\"正在加载模型…\""
     },
     {
       "original": "\"Account\"",
@@ -774,7 +774,7 @@
     },
     {
       "original": "\"Loading usage data\\u2026\"",
-      "chinese": "\"正在加载使用数据...\""
+      "chinese": "\"正在加载使用数据…\""
     },
     {
       "original": "\"Continue in Terminal\"",
@@ -1223,6 +1223,10 @@
     {
       "original": "\"Wrangling\"",
       "chinese": "\"正在处理逻辑\""
+    },
+    {
+      "original": "\"Queue another message…\"",
+      "chinese": "\"排队发送下一条消息…\""
     }
   ]
 }
