@@ -19,7 +19,7 @@
       "chinese": "\"计划模式\""
     },
     {
-      "original": "Tired of repeating yourself? Tell Claude to remember what you\\u2019ve told it using CLAUDE.md.",
+      "original": "Tired of repeating yourself? Tell Claude to remember what you’ve told it using CLAUDE.md.",
       "chinese": "无需重复指令。通过 CLAUDE.md 记录已知信息，让 Claude 拥有持久记忆。"
     },
     {
@@ -31,12 +31,12 @@
       "chinese": "\"别写烂代码了，写点能跑上线的吧。\""
     },
     {
-      "original": "\"// TODO: Everything. Let\\u2019s start.\"",
+      "original": "\"// TODO: Everything. Let’s start.\"",
       "chinese": "\"// TODO: 万事待兴。开始吧。\""
     },
     {
       "original": "\"Type /model to pick the right tool for the job.\"",
-      "chinese": "\"输入 /model，为当前任务选择合适的工具。\""
+      "chinese": "\"输入 /model 为当前任务选择合适的工具。\""
     },
     {
       "original": "\"Use planning mode to talk through big changes before a commit. Press\"",
@@ -59,7 +59,7 @@
       "chinese": "\"创建一个 CLAUDE.md 文件，用于存放 Claude 每次都会读取的指令。\""
     },
     {
-      "original": "\"You\\u2019ve come to the absolutely right place!\"",
+      "original": "\"You’ve come to the absolutely right place!\"",
       "chinese": "\"你绝对找对地方了！\""
     },
     {
@@ -79,7 +79,7 @@
       "chinese": "\"远程服务器未连接\""
     },
     {
-      "original": "\"Filter actions\\u2026\"",
+      "original": "\"Filter actions…\"",
       "chinese": "\"过滤操作…\""
     },
     {
@@ -87,11 +87,11 @@
       "chinese": "\"没有匹配的指令\""
     },
     {
-      "original": "\"Attach file\\u2026\"",
+      "original": "\"Attach file…\"",
       "chinese": "\"添加文件…\""
     },
     {
-      "original": "\"Mention file from this project\\u2026\"",
+      "original": "\"Mention file from this project…\"",
       "chinese": "\"引用此项目中的文件…\""
     },
     {
@@ -103,7 +103,7 @@
       "chinese": "\"管理插件\""
     },
     {
-      "original": "\"General config\\u2026\"",
+      "original": "\"General config…\"",
       "chinese": "\"通用配置…\""
     },
     {
@@ -155,11 +155,11 @@
       "chinese": "\"账户与用量\""
     },
     {
-      "original": "\"Account & usage\\u2026\"",
+      "original": "\"Account & usage…\"",
       "chinese": "\"账户与用量…\""
     },
     {
-      "original": "\"Switch model\\u2026\"",
+      "original": "\"Switch model…\"",
       "chinese": "\"切换模型…\""
     },
     {
@@ -167,7 +167,7 @@
       "chinese": "\"向 Claude 寻求帮助\""
     },
     {
-      "original": "\"Queue another message\\u2026\"",
+      "original": "\"Queue another message…\"",
       "chinese": "\"排队发送下一条消息…\""
     },
     {
@@ -179,7 +179,7 @@
       "chinese": "以聚焦或取消聚焦 Claude 窗口"
     },
     {
-      "original": "\"Ask Claude to edit\\u2026\"",
+      "original": "\"Ask Claude to edit…\"",
       "chinese": "\"请求 Claude 进行编辑…\""
     },
     {
@@ -259,7 +259,7 @@
       "chinese": "\"权限设置在终端与 IDE 之间共享。\""
     },
     {
-      "original": "\"Loading MCP servers\\u2026\"",
+      "original": "\"Loading MCP servers…\"",
       "chinese": "\"正在加载 MCP 服务器…\""
     },
     {
@@ -279,7 +279,7 @@
       "chinese": "\"无标题\""
     },
     {
-      "original": "\"Search sessions\\u2026\"",
+      "original": "\"Search sessions…\"",
       "chinese": "\"搜索会话…\""
     },
     {
@@ -319,7 +319,7 @@
       "chinese": "\"显示命令菜单 (/)\""
     },
     {
-      "original": "\"Adding\\u2026\"",
+      "original": "\"Adding…\"",
       "chinese": "\"正在添加…\""
     },
     {
@@ -339,7 +339,7 @@
       "chinese": "\"以自动批准代码修改\""
     },
     {
-      "original": "\"Use Claude Code in the terminal to configure MCP servers. They\\u2019ll work here, too!\"",
+      "original": "\"Use Claude Code in the terminal to configure MCP servers. They’ll work here, too!\"",
       "chinese": "\"在终端中使用 Claude Code 配置 MCP 服务器，设置也会在此处生效！\""
     },
     {
@@ -509,7 +509,7 @@
       "chinese": "\"管理插件\""
     },
     {
-      "original": "\"GitHub repo, URL, or path\\u2026\"",
+      "original": "\"GitHub repo, URL, or path…\"",
       "chinese": "\"GitHub 仓库、URL 或路径…\""
     },
     {
@@ -521,7 +521,7 @@
       "chinese": "\"移除市场\""
     },
     {
-      "original": "\"Removing\\u2026\"",
+      "original": "\"Removing…\"",
       "chinese": "\"正在移除…\""
     },
     {
@@ -557,7 +557,7 @@
       "chinese": "\"刷新市场\""
     },
     {
-      "original": "\"Search plugins\\u2026\"",
+      "original": "\"Search plugins…\"",
       "chinese": "\"搜索插件…\""
     },
     {
@@ -621,7 +621,7 @@
       "chinese": "\"取消\""
     },
     {
-      "original": "\"Loading marketplaces\\u2026\"",
+      "original": "\"Loading marketplaces…\"",
       "chinese": "\"正在加载市场…\""
     },
     {
@@ -669,7 +669,7 @@
       "chinese": "\"回滚后将创建一个新的复刻对话。\""
     },
     {
-      "original": "\"Checking code changes\\u2026\"",
+      "original": "\"Checking code changes…\"",
       "chinese": "\"正在检查代码更改…\""
     },
     {
@@ -693,7 +693,7 @@
       "chinese": "\"消息操作\""
     },
     {
-      "original": "\"Loading plugins\\u2026\"",
+      "original": "\"Loading plugins…\"",
       "chinese": "\"正在加载插件…\""
     },
     {
@@ -709,11 +709,11 @@
       "chinese": "\"添加市场源并继续\""
     },
     {
-      "original": "\"Adding marketplace\\u2026\"",
+      "original": "\"Adding marketplace…\"",
       "chinese": "\"正在添加市场源…\""
     },
     {
-      "original": "\"Loading available plugins\\u2026\"",
+      "original": "\"Loading available plugins…\"",
       "chinese": "\"正在加载可用插件…\""
     },
     {
@@ -733,7 +733,7 @@
       "chinese": "\"没有可用模型\""
     },
     {
-      "original": "\"Loading models\\u2026\"",
+      "original": "\"Loading models…\"",
       "chinese": "\"正在加载模型…\""
     },
     {
@@ -773,7 +773,7 @@
       "chinese": "\"每周 Sonnet 模型\""
     },
     {
-      "original": "\"Loading usage data\\u2026\"",
+      "original": "\"Loading usage data…\"",
       "chinese": "\"正在加载使用数据…\""
     },
     {
@@ -1225,8 +1225,20 @@
       "chinese": "\"正在处理逻辑\""
     },
     {
-      "original": "\"Queue another message…\"",
-      "chinese": "\"排队发送下一条消息…\""
+      "original": "\"Other\"",
+      "chinese": "\"其他\""
+    },
+    {
+      "original": "\"Submit answers\"",
+      "chinese": "\"提交答案\""
+    },
+    {
+      "original": "\"Accept this plan?\"",
+      "chinese": "\"是否接受此计划？\""
+    },
+    {
+      "original": "\"Review the plan above and decide whether to proceed\"",
+      "chinese": "\"请审核以上计划并决定是否继续\""
     }
   ]
 }
