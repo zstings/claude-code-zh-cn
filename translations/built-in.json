@@ -893,6 +893,18 @@
       "chinese": "\"是否继续执行 \""
     },
     {
+      "original": "\"Effort\"",
+      "chinese": "\"工作量\""
+    },
+    {
+      "original": "\"Toggle fast mode (Opus 4.6 only)\"",
+      "chinese": "\"切换快速模式 (仅限 Opus 4.6)\""
+    },
+    {
+      "original": "\"Toggle fast mode for faster responses (Opus 4.6 only)\"",
+      "chinese": "\"开启快速模式以获得更快的响应 (仅限 Opus 4.6)\""
+    },
+    {
       "original": "\"Accomplishing\"",
       "chinese": "\"正在达成任务\""
     },
