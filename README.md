@@ -1,6 +1,8 @@
-# Claude Code 汉化扩展
+# [非官方] Claude Code for VS Code 简体中文汉化包
 
-这是一个 VS Code 扩展，用于将 Claude Code for VS Code 扩展汉化为简体中文。
+**本扩展是由社区开发的非官方汉化补丁，旨在为 Claude Code for VS Code 提供简体中文界面支持。**
+
+注意： 本项目与 Anthropic 官方或 Claude 团队无任何关联。
 
 ## 功能特性
 

@@ -1,8 +1,8 @@
 {
   "name": "claude-code-zh-cn",
-  "displayName": "Claude Code for VS Code 汉化 (简体中文)",
-  "description": "Claude Code for VS Code 的简体中文汉化扩展",
-  "version": "1.1.3",
+  "displayName": "[非官方] Claude Code for VS Code 简体中文汉化包",
+  "description": "非官方的 Claude Code for VS Code 插件的简体中文汉化插件",
+  "version": "1.1.4",
   "publisher": "zstings",
   "bugs": {
     "url": "https://github.com/zstings/claude-code-zh-cn/issues"
@@ -10,7 +10,7 @@
   "engines": {
     "vscode": "^1.94.0"
   },
-  "icon": "claude-logo.png",
+  "icon": "logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/zstings/claude-code-zh-cn.git"
@@ -29,6 +29,7 @@
     "claude code",
     "chinese",
     "中文",
+    "简体",
     "汉化",
     "i18n"
   ],
