@@ -1,5 +1,5 @@
 {
-  "name": "claude-code-zh-cn",
+  "name": "claude-code-zhCn",
   "displayName": "[非官方] Claude Code for VS Code 简体中文汉化包",
   "description": "非官方的 Claude Code for VS Code 插件的简体中文汉化插件",
   "version": "1.1.4",
@@ -16,6 +16,7 @@
     "url": "https://github.com/zstings/claude-code-zh-cn.git"
   },
   "categories": [
+    "Language Packs",
     "AI",
     "Chat",
     "Other"
