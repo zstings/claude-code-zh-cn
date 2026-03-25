@@ -905,6 +905,114 @@
       "chinese": "\"开启快速模式以获得更快的响应 (仅限 Opus 4.6)\""
     },
     {
+      "original": "\"Claude will ask for approval before making each edit\"",
+      "chinese": "\"Claude 在进行每项编辑前都会要求手动审核\""
+    },
+    {
+      "original": ". Click to change, or press Shift+Tab to cycle.",
+      "chinese": "。点击修改，或按 Shift+Tab 循环切换。"
+    },
+    {
+      "original": "\"Claude will edit your selected text or the whole file\"",
+      "chinese": "\"Claude 将编辑您选中的文本或整个文件\""
+    },
+    {
+      "original": "\"Claude will explore the code and present a plan before editing\"",
+      "chinese": "\"Claude 将先探索代码并在编辑前出具方案\""
+    },
+    {
+      "original": "\" to switch\"",
+      "chinese": "\" 切换\""
+    },
+    {
+      "original": "\"Modes\"",
+      "chinese": "\"模式\""
+    },
+    {
+      "original": "\"Session history\"",
+      "chinese": "\"会话历史\""
+    },
+    {
+      "original": "\"Upload from computer\"",
+      "chinese": "\"从电脑上传\""
+    },
+    {
+      "original": "\"Attach files from your computer\"",
+      "chinese": "\"从电脑上传文件\""
+    },
+    {
+      "original": "\"Add context\"",
+      "chinese": "\"添加上下文\""
+    },
+    {
+      "original": "\"Add files or folders to the conversation\"",
+      "chinese": "\"向上下文中添加文件或文件夹\""
+    },
+    {
+      "original": "\"Toggle extended thinking mode\"",
+      "chinese": "\"切换深度思考模式\""
+    },
+    {
+      "original": "\"Set how hard the model tries\"",
+      "chinese": "\"设置模型的思考投入程度\""
+    },
+    {
+      "original": "\"Click a position to set effort level\"",
+      "chinese": "\"点击位置以设置投入等级\""
+    },
+    {
+      "original": "\"Change the AI model\"",
+      "chinese": "\"更改 AI 模型\""
+    },
+    {
+      "original": "\"Upload a file to include in conversation\"",
+      "chinese": "\"上传文件并将其加入当前上下文\""
+    },
+    {
+      "original": "\"Reference a project file with @mention\"",
+      "chinese": "\"通过 @ 引用项目文件\""
+    },
+    {
+      "original": "\"Start a new conversation\"",
+      "chinese": "\"开启新会话\""
+    },
+    {
+      "original": "\"Restore code and conversation to an earlier point\"",
+      "chinese": "\"将代码与会话恢复至历史节点\""
+    },
+    {
+      "original": "\"Change response formatting style\"",
+      "chinese": "\"更改回复的格式化风格\""
+    },
+    {
+      "original": "\"Configure custom agents\"",
+      "chinese": "\"配置自定义 Agent\""
+    },
+    {
+      "original": "\"Set up event hooks\"",
+      "chinese": "\"设置事件钩子 (Hooks)\""
+    },
+    {
+      "original": "\"Manage Claude's memory\"",
+      "chinese": "\"管理 Claude 的记忆\""
+    },
+    {
+      "original": "\"Manage permission settings\"",
+      "chinese": "\"管理权限设置\""
+    },
+    {
+      "original": "\"Configure Model Context Protocol servers\"",
+      "chinese": "\"配置 MCP (模型上下文协议) 服务端\""
+    },
+    {
+      "original": "\"Install, enable, or disable plugins\"",
+      "chinese": "\"安装、启用或禁用插件\""
+    },
+    {
+      "original": "\"Log in with a different account\"",
+      "chinese": "\"使用其他账号登录\""
+    },
+    {
       "original": "\"Accomplishing\"",
       "chinese": "\"正在达成任务\""
     },
