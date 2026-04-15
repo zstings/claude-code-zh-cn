@@ -833,6 +833,75 @@
       "chinese": "\"是的，允许本次会话中的所有编辑\""
     },
     {
+      "original": "\"Yes, allow \",([\\w\\[\\].]+),\" for \",([\\w.]+)",
+      "chinese": "\"是的，允许 \",$1,\" 用于 \",$2",
+      "regex": true
+    },
+    {
+      "original": "\"Yes, allow \",([\\w\\[\\].]+),\" and \",([\\w\\[\\].]+),\" for\",\" \",([\\w.]+)",
+      "chinese": "\"是的，允许 \",$1,\" 和 \",$2,\" 用于 \",$3",
+      "regex": true
+    },
+    {
+      "original": "\"Yes, allow \",([\\w\\[\\].]+),\" and \",([\\w\\[\\].-]+),\" \",\"more for \",([\\w.]+)",
+      "chinese": "\"是的，允许 \",$1,\" 和另外 \",$2,\" 个，用于 \",$3",
+      "regex": true
+    },
+    {
+      "original": "\"Yes, allow access to \",([\\w\\[\\].]+),\" for \",([\\w.]+)",
+      "chinese": "\"是的，允许访问 \",$1,\" 用于 \",$2",
+      "regex": true
+    },
+    {
+      "original": "\"Yes, allow access to \",([\\w\\[\\].]+),\" directories for\",\" \",([\\w.]+)",
+      "chinese": "\"是的，允许访问 \",$1,\" 个目录，用于 \",$2",
+      "regex": true
+    },
+    {
+      "original": "\"this project (just you)\"",
+      "chinese": "\"此项目（仅限你）\""
+    },
+    {
+      "original": "\"all projects\"",
+      "chinese": "\"所有项目\""
+    },
+    {
+      "original": "\"this project (shared)\"",
+      "chinese": "\"此项目（共享）\""
+    },
+    {
+      "original": "\"this session\"",
+      "chinese": "\"此会话\""
+    },
+    {
+      "original": "\"Saves to .claude/settings.local.json (gitignored)\"",
+      "chinese": "\"保存到 .claude/settings.local.json（git 忽略）\""
+    },
+    {
+      "original": "\"Saves to ~/.claude/settings.json\"",
+      "chinese": "\"保存到 ~/.claude/settings.json\""
+    },
+    {
+      "original": "\"Saves to ~/.claude/settings.json\"",
+      "chinese": "\"保存到 ~/.claude/settings.json\""
+    },
+    {
+      "original": "\"Saves to .claude/settings.json (shared with team)\"",
+      "chinese": "\"保存到 .claude/settings.json（共享团队）\""
+    },
+    {
+      "original": "\"Only for this session (not saved)\"",
+      "chinese": "\"仅对这个会话（未保存）\""
+    },
+    {
+      "original": "\"From command line arguments\"",
+      "chinese": "\"从命令行参数中\""
+    },
+    {
+      "original": " tool output`",
+      "chinese": " 工具输出`"
+    },
+    {
       "original": "\"Tell Claude what to do instead\"",
       "chinese": "\"改为告诉 Claude 该做什么\""
     },
