@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "description": "Claude Code 设置面板汉化规则（用于 package.json）",
+  "description": "Claude Code 设置面板与命令标题汉化规则（用于 package.json）",
   "descriptions": {
     "claudeCode.environmentVariables": "环境变量：启动 Claude 时设置的环境变量。建议在 Claude 的 settings.json 中设置环境变量。详见文档：https://code.claude.com/docs/en/settings",
     "claudeCode.useTerminal": "使用终端：在终端而非原生 UI 中启动 Claude。",
@@ -34,7 +34,48 @@
     "claudeCode.usePythonEnvironment": "**使用 Python 环境：** 运行 Claude 时自动激活工作区的 Python 环境。需要 [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) 扩展。"
   },
   "enumDescriptions": {
-    "claudeCode.initialPermissionMode": ["默认：使用默认权限模式", "自动接受编辑：自动接受文件编辑", "计划模式：在编辑前先制定计划", "绕过权限：跳过所有权限确认"],
-    "claudeCode.preferredLocation": ["侧边栏（右侧）", "面板（新标签页）"]
+    "claudeCode.initialPermissionMode": [
+      "默认：使用默认权限模式",
+      "自动接受编辑：自动接受文件编辑",
+      "计划模式：在编辑前先制定计划",
+      "绕过权限：跳过所有权限确认"
+    ],
+    "claudeCode.preferredLocation": [
+      "侧边栏（右侧）",
+      "面板（新标签页）"
+    ]
+  },
+  "commands": {
+    "Claude Code: Open in New Tab": "Claude Code：在新标签页中打开",
+    "Claude Code: Open": "Claude Code：打开",
+    "Claude Code: Open in Primary Editor": "Claude Code：在主编辑器中打开",
+    "Claude Code: Open in New Window": "Claude Code：在新窗口中打开",
+    "Claude Code: Create Worktree": "Claude Code：创建工作树",
+    "Claude Code: Open in Side Bar": "Claude Code：在侧边栏中打开",
+    "Claude Code: New Conversation": "Claude Code：新建对话",
+    "Claude Code: Reopen Closed Session": "Claude Code：重新打开已关闭的会话",
+    "Claude Code: Update extension": "Claude Code：更新扩展",
+    "Claude Code: Focus input": "Claude Code：聚焦输入框",
+    "Claude Code: Focus last message": "Claude Code：聚焦最后一条消息",
+    "Claude Code: Blur input": "Claude Code：取消聚焦输入框",
+    "Claude Code: Logout": "Claude Code：退出登录",
+    "Claude Code: Open in Terminal": "Claude Code：在终端中打开",
+    "Claude Code: Accept Proposed Changes": "Claude Code：接受建议的更改",
+    "Claude Code: Reject Proposed Changes": "Claude Code：拒绝建议的更改",
+    "Claude Code: Accept Change at Cursor": "Claude Code：接受光标处的更改",
+    "Claude Code: Reject Change at Cursor": "Claude Code：拒绝光标处的更改",
+    "Claude Code: Insert @-Mention Reference": "Claude Code：插入 @ 引用",
+    "Claude Code: Install Plugin": "Claude Code：安装插件",
+    "Claude Code: Insert At-Mentioned": "Claude Code：插入 @ 提及",
+    "Claude Code: Show Logs": "Claude Code：显示日志",
+    "Claude Code: Toggle Focus view": "Claude Code：切换聚焦视图",
+    "Claude Code: Open Walkthrough": "Claude Code：打开入门指南",
+    "Claude Code: Mark Session as Unread": "Claude Code：将会话标记为未读",
+    "Claude Code: Rename Session Tab": "Claude Code：重命名会话标签页",
+    "Claude Code: Add Session Tab to Group": "Claude Code：将会话标签页添加到分组"
+  },
+  "others": {
+    "Accept this change": "接受此更改",
+    "Reject this change": "拒绝此更改"
   }
 }

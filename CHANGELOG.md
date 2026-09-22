@@ -2,6 +2,17 @@
 
 本项目的所有重要变更都将记录在此文件中。
 
+## [1.4.6] - 2026-09-22
+
+### 新增
+
+- **命令面板标题汉化**：扩展 `translatePackageJson()` 以处理 `contributes.commands`，新增 27 条命令标题翻译（`Claude Code: Open in New Tab`、`New Conversation`、`Accept Proposed Changes` 等）
+- **散落字段汉化**：新增 `others` 规则段与深度遍历逻辑，覆盖 `Accept this change` / `Reject this change` 等菜单项
+
+### 说明
+
+此前 `translatePackageJson()` 仅处理 `contributes.configuration`（设置面板描述），命令面板条目始终显示英文。本次补齐该缺口，适配 Claude Code for VS Code v2.1.278。
+
 ## [1.4.5] - 2026-08-05
 
 ### 新增
